@@ -1,0 +1,9 @@
+{
+  "name": "event-bus",
+  "author": "Jose Alvarado",
+  "description": "Event bus library",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "bun src/index.js"
+  }
+}
