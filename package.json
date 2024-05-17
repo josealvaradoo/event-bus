@@ -3,7 +3,15 @@
   "author": "Jose Alvarado",
   "description": "Event bus library",
   "version": "0.1.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "exports": {
+    "default": {
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
-    "start": "bun src/index.js"
+    "start": "bun src/index.js",
+    "build": "bun build ./src/index.js --outdir ./dist"
   }
 }
